@@ -1,0 +1,66 @@
+body {
+  background-color: #98D2BF;
+  font-size: 16px;
+  font-family: 'Oswald';'
+}
+
+h1 {
+  font-family: 'Oswald';
+
+}
+
+input, textarea {
+    border: 2px solid #43545D;
+    display: block;
+    width: 100%;
+    margin-bottom: 23px;
+    padding: 14px 6px;
+    text-transform: none;
+    letter-spacing: 0.75px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/*textarea {
+	height: 150px;
+	margin-bottom: 30px;
+}*/
+
+label {
+  font-family: Open Sans;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 60%;
+	margin: 40px auto ;
+	padding: 20px 40px 40px;
+}
+
+.radiowrapper label,
+.radiowrapper input {
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+.radio-wrapper {
+ margin-bottom: 15px;
+}
+
+button {
+display: block;
+background-color: #B69843;
+color: white;
+padding: 10px 20px;
+box-shadow: 0;
+border: 0;
+border-radius: 4px;
+}
+
+input[type="checkbox" i] {
+    display: inline;
+    width: auto;
+}

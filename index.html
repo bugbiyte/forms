@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+
+  <!-- Fonts have already been added here! -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+
+
+  <form action="">
+    <h1>YOUR CONTACT INFO</h1>
+    <label for="firstname">Full Name</label>
+    <input type="text" id="firstname" firstname="firstname" placeholder="Enter your full name">
+    <label for="Email Address">Email</label>
+    <input type="email" id="email" email="email" placeholder="Enter your email">
+    <label for="PhoneNumber">Phone Number</label>
+    <input type="phone" id="phone" address="phone" placeholder="Enter your phone number">
+  <br>
+
+  <hr>
+    <h1>SKILLS AND INTERESTS</h1>
+
+  <h3>What course are you interested in?</h3>
+  <select>
+    <option value="" selected disabled>Select</option>
+    <option value="backend">Back End Web Development</option>
+    <option value="frontendweb">Front End Web Development</option>
+    <option value="backend">Back End Web Development</option>
+    <option value="frontendweb">Front End Web Development</option>
+    <option value="backend">Back End Web Development</option>
+
+  </select>
+
+  <h3>Where do you want to take this course?</h3>
+  <div class="radiowrapper">
+  <label for="city">San Francisco</label>
+  <input type="radio" id="city" name="city" value="san francisco">
+  <label for="city">Chicago</label>
+  <input type="radio" id="city" name="city" value="chicago">
+</div>
+
+  <h3>Past Experience</h3>
+  <textarea id="message" placeholder="What is your past experience?"></textarea>
+
+<hr>
+
+<br>
+    <label for="save-email" class="email">I want to receive email updates.</label>
+		<input type="checkbox" id="save-email" name="save-email">
+
+    <button type="submit">Submit Application </button>
+</form>
+
+
+</body>
+</html>
